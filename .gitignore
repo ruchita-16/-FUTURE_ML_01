@@ -1,17 +1,66 @@
-# Node
-node_modules/
-frontend/node_modules/
+# Python
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+
+venv/
+env/
+ENV/
+
+# Distribution
+
+build/
 dist/
+*.egg-info/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Environment Variables
+
+.env
+.env.*
+
+# Node / Frontend
+
+node_modules/
+dist/
+build/
 .vite/
 
-# Python
-venv/
-__pycache__/
-*.pyc
+# Logs
 
-# Environment
-.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# OS
+# ML Models
+
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# Data Files
+
+*.csv
+*.xlsx
+*.json
+
+# IDE
+.vscode/
+.idea/
+
+
+# OS Files
+
 .DS_Store
 Thumbs.db
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
